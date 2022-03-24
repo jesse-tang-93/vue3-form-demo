@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ age }}</h1>
     {{ msg }}
+    <div />
   </div>
 </template>
 
@@ -10,12 +11,12 @@ import { defineComponent, PropType } from 'vue'
 const propType = {
   age: {
     type: Number as PropType<number>,
-    required: true,
+    required: true
   },
   msg: {
     type: String as PropType<string>,
-    required: true,
-  },
+    required: true
+  }
 } as const // 设置为只读（readonly）
 
 export default defineComponent({
@@ -23,7 +24,7 @@ export default defineComponent({
   props: propType,
   mounted() {
     this.age
-  },
+  }
 })
 </script>
 

@@ -13,7 +13,7 @@ export default defineComponent({
   name: 'App',
 
   components: {
-    HelloWorld,
+    HelloWorld
   },
   setup(props, { slots, attrs, emit }) {
     let state = reactive({ name: 'txq' })
@@ -31,9 +31,9 @@ export default defineComponent({
     })
     return {
       state,
-      nameComputedRef,
+      nameComputedRef
     }
-  },
+  }
 })
 </script>
 
