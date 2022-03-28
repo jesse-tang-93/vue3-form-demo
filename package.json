@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "monaco-editor": "^0.33.0",
+    "vue": "^3.2.13",
+    "vue-jss": "^0.0.4"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
